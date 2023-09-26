@@ -1,0 +1,29 @@
+.header{
+    background-color: red;
+}
+.odd{
+    background-color: rgba(255, 0, 0, 0.4);
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+#second{
+    color: blue;
+    font-size: 36px;
+}
+.odd#third{
+        font-size: 24px;
+}
+#fourth{
+    background-color: rgba(0, 220, 0, 0.5);
+    font-size: 24px;
+    font-weight: bold;
+}
+.avatar.proportioned{
+       width: 300px ;
+       height: auto;
+}
+.avatar.distorted{
+    width: 200px;
+    height: 400px;
+}
+
+     
