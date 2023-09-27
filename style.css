@@ -5,6 +5,24 @@
     background-color: rgba(255, 0, 0, 0.4);
     font-family: Verdana, "DejaVu Sans", sans-serif;
 }
+.epic{
+    font-size: 28px;
+    font-family: Helvetica, 'Times New Roman', sans-serif;
+}
+.button{
+    border: 3cm;
+    background-color: yellow;
+    color: black;
+    display: inline;
+    border-color: rgba(52, 109, 155, 0.63);
+}
+.button2{
+    border: 3cm;
+    background-color: black;
+    color: white;
+    display: inline;
+    border-color: rgba(30, 121, 196, 0.712);
+}
 #second{
     color: blue;
     font-size: 36px;
@@ -25,5 +43,6 @@
     width: 200px;
     height: 400px;
 }
+
 
      
