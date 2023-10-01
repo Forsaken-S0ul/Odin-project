@@ -5,23 +5,22 @@
     background-color: rgba(255, 0, 0, 0.4);
     font-family: Verdana, "DejaVu Sans", sans-serif;
 }
-.epic{
+.button,.button2{
     font-size: 28px;
     font-family: Helvetica, 'Times New Roman', sans-serif;
+    border: 3cm;
+    border-color: rgba(52, 109, 155, 0.63);
 }
 .button{
-    border: 3cm;
     background-color: yellow;
     color: black;
     display: inline;
-    border-color: rgba(52, 109, 155, 0.63);
+    
 }
 .button2{
-    border: 3cm;
     background-color: black;
     color: white;
     display: inline;
-    border-color: rgba(30, 121, 196, 0.712);
 }
 #second{
     color: blue;
@@ -43,6 +42,60 @@
     width: 200px;
     height: 400px;
 }
+.container .text{
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+.cascadefix{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .para,
+  .small-para {
+    color: hsl(0, 0%, 0%);
+    font-weight: 800;
+  }
+  
+  .small-para,#smoll{
+    font-size: 14px;
+    font-weight: 800;
+  }
+  
+  .para {
+    font-size: 22px;
+  }
+  
+  #goo{
+    background: green;
+    color: white;
+    font-weight: bold;
+    border: 1px solid #000;
+  } 
+  
+  #cancel-button {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    border: 1px solid #000;
+    padding: 5px;
+    padding-bottom: 3px;
+    padding-top: 8px;
+    width: 75px;
+  }
+  
+  .text .child {
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    font-size: 14px;
+  }
+  
+  div.text {
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    font-weight: 100;
+  }
 
 
      
