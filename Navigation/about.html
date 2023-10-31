@@ -5,16 +5,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>About</title>
+    <style>
+      body {
+        width: 1100px;
+        height: auto;
+        margin: 0px;
+        padding: 5px;
+        --tw-bg-opacity: 1;
+        background-color: rgb(6 9 24 / var(--tw-bg-opacity));
+        color: aliceblue;
+      }
+      .mobile {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 5em 1fr 3em;
+        min-height: 500px;
+      }
+      h1 {
+        padding: 15px;
+        grid-column: span;
+        margin-top: 10px;
+        margin-left: 35px;
+        padding-bottom: 25px;
+        height: 30px;
+        margin-bottom: 10px;
+      }
+      h2 {
+        grid-column: span 2;
+        text-align: center;
+        margin: 0px;
+      }
+      .flex-container {
+        display: flex;
+        gap: 3px;
+        flex: 1 1 auto;
+        flex-direction: column;
+        grid-column: span;
+        margin: 0%;
+        padding: 18px;
+        width: 350px;
+        height: 200px;
+        margin-left: 20px;
+        border: 2px solid red;
+      }
+      .p {
+        margin: 15px;
+      }
+      #secondp {
+        flex-grow: 2;
+        color: aqua;
+      }
+      .p #thirdp {
+        flex-grow: 0;
+      }
+      .main {
+        width: 600px;
+        padding-top: 50px;
+        height: 150px;
+        margin-left: 50px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-right: 50px;
+        grid-row: span 2;
+        padding: 15px;
+      }
+    </style>
   </head>
   <body>
-    <h1>ABOUT</h1>
-    <img
-      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsxtm5e2IT2OrrqYkucJPcvzLA1rr4nUQRDA&usqp=CAU"
-      alt="skill issue"
-    />
-    <p>
-      I want to be a fullstack developer with knowledge to build responsive and
-      functional websites.
-    </p>
+    <div class="mobile">
+      <h1>This is the head.</h1>
+      <div class="flex-container">
+        <p class="p">about</p>
+        <p class="p" id="secondp">place holder</p>
+        <p class="p" id="thirdp">another place holder</p>
+      </div>
+      <div class="main">This is the main</div>
+      <h2>This is the footer</h2>
+    </div>
   </body>
 </html>
